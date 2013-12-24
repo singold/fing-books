@@ -1,4 +1,53 @@
 Metodos Numericos
 =================
 
-TODO: Agregar indice
+El siguiente índice está basado en el programa del curso "Métodos Numéricos" del año 2013.
+
+Entre paréntesis están las distintas referencias a los libros recomendados del curso. Se puede partir de ahí para la redacción de cada capítulo
+
+Aritmética de punto flotante y estimación de errores
+----------------------------------------------------
+* Introducción al curso de métodos numéricos. (KMN 2.1)
+* Tipos de error. (KMN 2.4)
+* Aritmética de punto flotante: error de representación y epsilon de la maquina. (KMN 2.2-2.3)
+* Errores relativos y absolutos. (KMN 2.4)
+* Propagación de errores y cancelación catastrófica. (KMN 2.3)
+* Problemas mal condicionados; número de condición. (KMN 2.4)
+* Cálculo de derivadas por cocientes: estudio del h óptimo, extrapolación de Richardson. (KMN 2.5)
+
+Sistemas de ecuaciones lineales
+-------------------------------
+* Algoritmo de escalerización y descomposición LU. Número de operaciones necesarias. (KMN 3.2)
+* Matrices esparsas. (KMN 3.9)
+* Repaso de normas de matrices. Definición de número de condición, cálculo y ejemplos. (KMN 3.6-3.8)
+* Métodos iterativos: Jacobi y Gauss-Seidel. Análisis de convergencia. (DBA 5.6)
+
+Ecuaciones no lineales
+----------------------
+* Método de bi-partición: velocidad de convergencia y condiciones de parada. (KMN 7.2)
+* Estudio de métodos iterativos generales: teorema del punto fijo, teorema del orden de convergencia, velocidad de convergencia, acotación del error. (DBA 6)
+* Métodos de Newton y la secante. Método de la Regla Falsa. (KMN 7.2)
+* Método de Newton Raphson para sistemas de ecuaciones. (KMN 7.5 & DBA 6.9)
+
+Mínimos cuadrados
+-----------------
+* Presentación del problema de mínimos cuadrados. Formulación matricial para el caso lineal (sistemas sobredeterminados). Ecuaciones Normales. Equivalencia (KMN 6.1, 6.3)
+* Uso de la descomposición QR y SVD.
+* Mínimos cuadrados no lineales: método de Gauss-Newton.
+
+Interpolación
+-------------
+* Interpolación polinómica: sistema de Vandermonde, mal condicionamiento y polinomios de Lagrange. Cálculo del polinomio interpolante. Método de Newton. Evaluación rápida. (KMN 4.1 - 4.3)
+* Teorema de acotación del error de interpolación. Fenómeno de Runge. (KMN 4.4)
+* Interpolación polinómica a trozos. Interpolante de Hermite y splines cúbicas. Curvas de Bezier. (KMN 4.7 (interpolación lineal a trozos) KMN 4.8 KMN 4.11)
+
+Ecuaciones diferenciales ordinarias (6 clases)
+----------------------------------------------
+* Repaso de ecuaciones diferenciales ordinarias: Condición de Lipchitz, existencia, unicidad y continuidad de las soluciones respecto a las condiciones iniciales. Sistema de ecuaciones diferenciales ordinarias.
+* Transformación de una ecuación de mayor orden a un sistema de primer orden. (DBA 8.1)
+* Método de Euler: errores locales y globales.(DBA 8.2, Shampine.)
+* Estudio del error global: propagación del error local de truncamiento. Aplicación al método de Euler. Definición de consistencia y orden de consistencia.
+* Métodos implícitos y explícitos. Método del trapecio y punto medio. Métodos predictor-corrector. (DBA 8.1)
+* Inestabilidad numérica, problema test y región de estabilidad. (DBA 8.5.3)
+* Métodos Runge-Kutta.(KMN 8.5, KMN 8.19 & DBA 8.3.3 (Runge Kutta))
+* Método de los disparos.(DBA)
