@@ -1,4 +1,40 @@
 Matematica Discreta 2
 =====================
 
-TODO: Agregar indice
+Teoría Elemental de Números
+---------------------------
+* Divisibilidad, máximo común divisor y mínimo común múltiplo.
+* Números Primos, descomposición factorial. 
+* Algoritmo de Euclides extendido.
+* Ecuaciones diofánticas lineales, congruencias.
+* Teorema chino del resto.
+* Teorema de Fermat-Euler, primos de Charmichael.
+* Sistemas de numeración.
+
+Teoría de Grupos
+----------------
+* Definición y ejemplos.
+* Subgrupos, grupos cíclicos, enteros módulo n, invertibles módulo n.
+* Orden de un elemento, orden de un grupo.
+* Clases laterales.
+* Teorema de Lagrange, subgrupos normales, grupo cociente.
+* Homomorfismos.
+* Primer teorema de isomorfismo.
+
+Raíces primitivas
+-----------------
+* Existencia y unicidad para primos y potencias de primos.
+* Cantidad de raíces primitivas, logaritmo discreto, test de Lucas, test de primalidad
+
+Criptografía
+------------
+* Criptosistemas clásicos (César, RSA, Vigenère)
+* Diffie-Hellman (intercambio de clave)
+* RSA
+* Cifrado de bloques
+* Método de factorización de Fermat
+
+Temas opcionales
+----------------
+* Grupos de permutaciones
+* Test de Miller-Rabin
