@@ -1,2 +1,30 @@
 Logica
 ======
+
+Conceptos Preliminares
+----------------------
+* Conjuntos inductivos. 
+* Principios de inducción. 
+* Esquemas de recursión. 
+ 
+Lógica Proposicional
+--------------------
+* Proposiciones y conectivos. 
+* Semántica. 
+* Deducción natural. 
+* Completitud. 
+ 
+Lógica de Predicados
+--------------------
+* Cuantificadores. 
+* Estructuras. 
+* Semántica. 
+* Propiedades simples de la lógica de predicados. 
+* Teorías con igualdad. 
+* Deducción natural. 
+ 
+Completitud y Aplicaciones
+--------------------------
+* El Teorema de completitud. 
+* Teoremas de compacidad. 
+* Introducción a la teoría de modelos
